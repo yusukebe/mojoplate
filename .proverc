@@ -1,0 +1,4 @@
+--exec "carton exec perl -Ilib -MTest::Name::FromLine"
+--color
+-v
+-w

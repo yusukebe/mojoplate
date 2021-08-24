@@ -1,0 +1,7 @@
+---
+secrets:
+  - ~
+connect_info:
+  - dbi:mysql:mojoplate:localhost
+  - root
+  - ~
