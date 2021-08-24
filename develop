@@ -1,0 +1,1 @@
+carton exec plackup --port 5000 -R lib,templates mojoplate.psgi
