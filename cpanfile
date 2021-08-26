@@ -7,6 +7,8 @@ requires 'Role::Tiny';
 requires 'YAML';
 requires 'Redis';
 requires 'DBIx::Skinny';
+requires 'DBIx::Skinny::Pager';
+requires 'Data::Page::Navigation';
 requires 'Storable';
 requires 'Compress::Zlib';
 

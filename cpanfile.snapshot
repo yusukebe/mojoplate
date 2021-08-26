@@ -32,6 +32,23 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Class-Accessor-0.51
+    pathname: K/KA/KASEI/Class-Accessor-0.51.tar.gz
+    provides:
+      Class::Accessor 0.51
+      Class::Accessor::Fast 0.51
+      Class::Accessor::Faster 0.51
+    requirements:
+      ExtUtils::MakeMaker 0
+      base 1.01
+  Class-Accessor-Chained-0.01
+    pathname: R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
+    provides:
+      Class::Accessor::Chained 0.01
+      Class::Accessor::Chained::Fast undef
+    requirements:
+      Class::Accessor 0
+      Test::More 0
   Class-Accessor-Lite-0.08
     pathname: K/KA/KAZUHO/Class-Accessor-Lite-0.08.tar.gz
     provides:
@@ -226,6 +243,32 @@ DISTRIBUTIONS
       Test::SharedFork 0.15
       Try::Tiny 0
       UNIVERSAL::require 0
+  DBIx-Skinny-Pager-0.11
+    pathname: Y/YO/YOSHIMI/DBIx-Skinny-Pager-0.11.tar.gz
+    provides:
+      DBIx::Skinny::Mixin::Pager undef
+      DBIx::Skinny::Mixin::SearchWithPager undef
+      DBIx::Skinny::Pager 0.11
+      DBIx::Skinny::Pager::Logic::Count undef
+      DBIx::Skinny::Pager::Logic::MySQLFoundRows undef
+      DBIx::Skinny::Pager::Logic::PlusOne undef
+      DBIx::Skinny::Pager::Page undef
+      DBIx::Skinny::Pager::Page::Default undef
+      DBIx::Skinny::Pager::Page::PlusOne undef
+      DBIx::Skinny::Pager::ResultSet undef
+    requirements:
+      Carp 0
+      Class::Accessor::Lite 0
+      DBIx::Skinny 0.0729
+      Data::Page 0
+      ExtUtils::MakeMaker 6.42
+      Module::Install::ReadmeFromPod 0
+      Module::Install::Repository 0
+      Test::Deep 0
+      Test::Differences 0
+      Test::More 0
+      Test::Requires 0
+      Test::UseAllModules 0
   DBIx-TransactionManager-1.13
     pathname: N/NE/NEKOKAK/DBIx-TransactionManager-1.13.tar.gz
     provides:
@@ -247,6 +290,27 @@ DISTRIBUTIONS
       Sub::Install 0.921
       strict 0
       warnings 0
+  Data-Page-2.03
+    pathname: E/ET/ETHER/Data-Page-2.03.tar.gz
+    provides:
+      Data::Page 2.03
+    requirements:
+      Carp 0
+      Class::Accessor::Chained::Fast 0
+      ExtUtils::MakeMaker 0
+      base 0
+      integer 0
+      perl 5.006
+      strict 0
+  Data-Page-Navigation-0.07
+    pathname: K/KA/KAZEBURO/Data-Page-Navigation-0.07.tar.gz
+    provides:
+      Data::Page::Navigation 0.07
+    requirements:
+      Data::Page 2
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.035
+      Test::More 0
   Devel-StackTrace-2.04
     pathname: D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz
     provides:
@@ -326,6 +390,22 @@ DISTRIBUTIONS
       File::Spec 0
       perl 5.006
       strict 0
+      warnings 0
+  File-Remove-1.60
+    pathname: S/SH/SHLOMIF/File-Remove-1.60.tar.gz
+    provides:
+      File::Remove 1.60
+    requirements:
+      Cwd 3.29
+      ExtUtils::MakeMaker 0
+      File::Glob 0
+      File::Path 0
+      File::Spec 3.29
+      Module::Build 0.28
+      constant 0
+      perl 5.008
+      strict 0
+      vars 0
       warnings 0
   File-ShareDir-1.118
     pathname: R/RE/REHSACK/File-ShareDir-1.118.tar.gz
@@ -471,6 +551,27 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.008001
+  IO-All-0.87
+    pathname: F/FR/FREW/IO-All-0.87.tar.gz
+    provides:
+      IO::All 0.87
+      IO::All::Base undef
+      IO::All::DBM undef
+      IO::All::Dir undef
+      IO::All::File undef
+      IO::All::Filesys undef
+      IO::All::Link undef
+      IO::All::MLDBM undef
+      IO::All::Pipe undef
+      IO::All::STDIO undef
+      IO::All::Socket undef
+      IO::All::String undef
+      IO::All::Temp undef
+    requirements:
+      Cwd 0
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      perl 5.008001
   IO-HTML-1.004
     pathname: C/CJ/CJM/IO-HTML-1.004.tar.gz
     provides:
@@ -601,6 +702,88 @@ DISTRIBUTIONS
       Try::Tiny 0
       strict 0
       warnings 0
+  Module-Install-1.19
+    pathname: E/ET/ETHER/Module-Install-1.19.tar.gz
+    provides:
+      Module::AutoInstall 1.19
+      Module::Install 1.19
+      Module::Install::Admin 1.19
+      Module::Install::Admin::Bundle 1.19
+      Module::Install::Admin::Compiler 1.19
+      Module::Install::Admin::Find 1.19
+      Module::Install::Admin::Include 1.19
+      Module::Install::Admin::Makefile 1.19
+      Module::Install::Admin::Manifest 1.19
+      Module::Install::Admin::Metadata 1.19
+      Module::Install::Admin::ScanDeps 1.19
+      Module::Install::Admin::WriteAll 1.19
+      Module::Install::AutoInstall 1.19
+      Module::Install::Base 1.19
+      Module::Install::Base::FakeAdmin 1.19
+      Module::Install::Bundle 1.19
+      Module::Install::Can 1.19
+      Module::Install::Compiler 1.19
+      Module::Install::DSL 1.19
+      Module::Install::Deprecated 1.19
+      Module::Install::External 1.19
+      Module::Install::Fetch 1.19
+      Module::Install::Include 1.19
+      Module::Install::Inline 1.19
+      Module::Install::MakeMaker 1.19
+      Module::Install::Makefile 1.19
+      Module::Install::Metadata 1.19
+      Module::Install::PAR 1.19
+      Module::Install::Run 1.19
+      Module::Install::Scripts 1.19
+      Module::Install::Share 1.19
+      Module::Install::Win32 1.19
+      Module::Install::With 1.19
+      Module::Install::WriteAll 1.19
+      inc::Module::Install 1.19
+      inc::Module::Install::DSL 1.19
+    requirements:
+      Devel::PPPort 3.16
+      ExtUtils::Install 1.52
+      ExtUtils::MakeMaker 6.59
+      ExtUtils::ParseXS 2.19
+      File::Path 0
+      File::Remove 1.42
+      File::Spec 3.28
+      Module::Build 0.29
+      Module::CoreList 2.17
+      Module::ScanDeps 1.09
+      Parse::CPAN::Meta 1.4413
+      Test::Harness 3.13
+      Test::More 0.86
+      YAML::Tiny 1.38
+      autodie 0
+      perl 5.006
+  Module-Install-ReadmeFromPod-0.30
+    pathname: B/BI/BINGOS/Module-Install-ReadmeFromPod-0.30.tar.gz
+    provides:
+      Module::Install::ReadmeFromPod 0.30
+    requirements:
+      Capture::Tiny 0.05
+      ExtUtils::MakeMaker 6.59
+      File::Temp 0
+      IO::All 0
+      Module::Install 1
+      Pod::Html 0
+      Pod::Man 0
+      Pod::Markdown 2
+      Pod::Text 3.13
+      Test::InDistDir 0
+      Test::More 0.47
+      perl 5.006
+  Module-Install-Repository-0.06
+    pathname: M/MI/MIYAGAWA/Module-Install-Repository-0.06.tar.gz
+    provides:
+      Module::Install::Repository 0.06
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Filter::Util::Call 0
+      Path::Class 0
+      Test::More 0
   Module-Pluggable-5.2
     pathname: S/SI/SIMONW/Module-Pluggable-5.2.tar.gz
     provides:
@@ -627,6 +810,19 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-ScanDeps-1.31
+    pathname: R/RS/RSCHUPP/Module-ScanDeps-1.31.tar.gz
+    provides:
+      Module::ScanDeps 1.31
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      File::Temp 0
+      Getopt::Long 0
+      Module::Metadata 0
+      Text::ParseWords 0
+      perl 5.008001
+      version 0
   Mojolicious-9.21
     pathname: S/SR/SRI/Mojolicious-9.21.tar.gz
     provides:
@@ -802,6 +998,31 @@ DISTRIBUTIONS
       Scalar::Util 1.18
       XSLoader 0.22
       parent 0
+  Path-Class-0.37
+    pathname: K/KW/KWILLIAMS/Path-Class-0.37.tar.gz
+    provides:
+      Path::Class 0.37
+      Path::Class::Dir 0.37
+      Path::Class::Entity 0.37
+      Path::Class::File 0.37
+    requirements:
+      Carp 0
+      Cwd 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      File::Copy 0
+      File::Path 0
+      File::Spec 3.26
+      File::Temp 0
+      File::stat 0
+      IO::Dir 0
+      IO::File 0
+      Module::Build 0.3601
+      Perl::OSType 0
+      Scalar::Util 0
+      overload 0
+      parent 0
+      strict 0
   PerlIO-via-Timeout-0.32
     pathname: D/DA/DAMS/PerlIO-via-Timeout-0.32.tar.gz
     provides:
@@ -928,6 +1149,23 @@ DISTRIBUTIONS
       Test::More 0
       parent 0
       perl 5.008001
+  Pod-Markdown-3.300
+    pathname: R/RW/RWSTAUNER/Pod-Markdown-3.300.tar.gz
+    provides:
+      Pod::Markdown 3.300
+      Pod::Perldoc::ToMarkdown 3.300
+    requirements:
+      Encode 0
+      ExtUtils::MakeMaker 0
+      Getopt::Long 0
+      Pod::Simple 3.27
+      Pod::Simple::Methody 0
+      Pod::Usage 0
+      URI::Escape 0
+      parent 0
+      perl 5.008
+      strict 0
+      warnings 0
   Redis-1.998
     pathname: D/DA/DAMS/Redis-1.998.tar.gz
     provides:
@@ -1063,6 +1301,16 @@ DISTRIBUTIONS
       Try::Tiny 0.07
       strict 0
       warnings 0
+  Test-InDistDir-1.112071
+    pathname: M/MI/MITHALDU/Test-InDistDir-1.112071.tar.gz
+    provides:
+      Test::InDistDir 1.112071
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Spec 0
+      File::Temp 0
+      Test::More 0
   Test-Name-FromLine-0.13
     pathname: S/SA/SATOH/Test-Name-FromLine-0.13.tar.gz
     provides:
@@ -1079,6 +1327,15 @@ DISTRIBUTIONS
       Test::Differences 0
       Test::Fatal 0
       Test::More 0
+  Test-Requires-0.11
+    pathname: T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz
+    provides:
+      Test::Requires 0.11
+    requirements:
+      ExtUtils::MakeMaker 6.64
+      Test::Builder::Module 0
+      Test::More 0.47
+      perl 5.006
   Test-SharedFork-0.35
     pathname: E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
     provides:
@@ -1107,6 +1364,16 @@ DISTRIBUTIONS
       Test::SharedFork 0.29
       Time::HiRes 0
       perl 5.008001
+  Test-UseAllModules-0.17
+    pathname: I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
+    provides:
+      Test::UseAllModules 0.17
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      ExtUtils::Manifest 0
+      Test::Builder 0.30
+      Test::More 0.60
   Text-Diff-1.45
     pathname: N/NE/NEILB/Text-Diff-1.45.tar.gz
     provides:
@@ -1289,3 +1556,17 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.008001
+  YAML-Tiny-1.73
+    pathname: E/ET/ETHER/YAML-Tiny-1.73.tar.gz
+    provides:
+      YAML::Tiny 1.73
+    requirements:
+      B 0
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      Scalar::Util 0
+      perl 5.008001
+      strict 0
+      warnings 0
