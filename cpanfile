@@ -9,6 +9,7 @@ requires 'Redis';
 requires 'DBIx::Skinny';
 requires 'DBIx::Skinny::Pager';
 requires 'Data::Page::Navigation';
+requires 'Digest::SHA1';
 requires 'Storable';
 requires 'Compress::Zlib';
 
