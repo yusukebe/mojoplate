@@ -41,6 +41,20 @@ $ ./develop
 
 then development server will up on `http://localhost:5000/'
 
+## With Docker
+
+Launch web app service
+
+```
+$ docker-compose up
+```
+
+Do tests
+
+```
+$ docker-compose run --rm app prove
+```
+
 ## Apply your app
 
 ```
