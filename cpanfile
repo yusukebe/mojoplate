@@ -6,6 +6,7 @@ requires 'Plack::Middleware::ReverseProxy';
 requires 'Role::Tiny';
 requires 'YAML';
 requires 'Redis';
+requires 'DBI';
 requires 'DBIx::Skinny';
 requires 'DBIx::Skinny::Pager';
 requires 'Data::Page::Navigation';
